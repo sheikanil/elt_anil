@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: uwinnipeg
+    description: "Class test data"
+    database: ANIL_DIT_45604_AIW01_D2024SP
+    schema: CLASS_TEST
+    tables:
+      - name: CUSTOMER
+        description: "customer table"
+      - name: ORDERS
+        description: "Orders table"
+      - name: PRODUCT
+        description: "Products table"
+
+
